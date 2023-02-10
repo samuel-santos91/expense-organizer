@@ -9,6 +9,7 @@
 ### Edit or delete existing expense <br>
 <img width="500" alt="Screen Shot 2023-02-10 at 15 47 55" src="https://user-images.githubusercontent.com/107240729/218005389-6c568797-bba2-41c0-b198-2eb9d029d826.png">
 <br><br>
+
 ## Prerequisites
 
 ### Install Node JS
