@@ -1,0 +1,31 @@
+@import "../styles/display";
+@import "../styles/colours";
+
+.edit-delete-screen {
+  width: 2.5rem;
+  height: 6.5rem;
+  margin-left: 0.2rem;
+  background-color: $grey-background;
+  flex-wrap: wrap;
+  @include displayFlex(center, center);
+}
+
+.edit-delete-screen {
+  button {
+    width: 2rem;
+    height: 2rem;
+    @include displayFlex(center, center);
+    border-radius: 10px;
+    border-style: none;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+.delete-btn {
+  background-color: $delete-btn;
+  font-size: 1.4rem;
+  font-weight: bolder;
+  color: white;
+}

@@ -1,0 +1,61 @@
+@import "../styles/display";
+@import "../styles/colours";
+
+.expense-item {
+  @include displayFlex (space-between, center);
+  width: 100%;
+  padding: 0.5rem;
+  margin: 1rem 0;
+  background-color: $grey-background;
+  h2 {
+    font-size: 1rem;
+    flex: 1;
+    margin: 0 1rem;
+    color: white;
+  }
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.edit-selection {
+  border: solid 2px red;
+  border-radius: 10px;
+}
+
+.expense-item__description {
+  @include displayFlex (flex-start, flex-end);
+  flex-direction: column-reverse;
+  gap: 1rem;
+  flex: 1;
+  @media (min-width: 580px) {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    flex: 1;
+    h2 {
+      font-size: 1.25rem;
+    }
+  }
+}
+
+.expense-item__price {
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  background-color: $blue-logo;
+  border: 1px solid white;
+  padding: 0.5rem;
+  border-radius: 12px;
+  @media (min-width: 580px) {
+    font-size: 1.25rem;
+    padding: 0.5rem 1.5rem;
+  }
+}
+
+.card-options {
+  @include displayFlex(none, center);
+}
+
+
+

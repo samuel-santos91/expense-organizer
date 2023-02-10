@@ -1,0 +1,10 @@
+@import "../styles/display";
+@import "../styles/colours";
+
+.chart {
+    padding: 1rem;
+    border-radius: 12px;
+    background-color: $light-blue-logo;
+    @include displayFlex(space-around, center);
+    height: 10rem;
+  } 

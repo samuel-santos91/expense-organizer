@@ -1,0 +1,38 @@
+@import "../styles/display";
+@import "../styles/colours";
+
+.new-expense__controls {
+  @include displayFlex(none, left);
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.new-expense__control {
+  label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    display: block;
+  }
+  input {
+    font: inherit;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid $dark-blue-logo;
+    width: 20rem;
+    max-width: 100%;
+    @media (max-width: 724px) {
+      width: calc(85vw + 0.5rem);
+    }
+  }
+}
+
+.new-expense__actions {
+  text-align: right;
+  display: block;
+  @media (max-width: 359px) {
+    display: flex;
+    flex-direction: column;
+  }
+}
