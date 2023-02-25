@@ -1,5 +1,5 @@
 # expense-organizer
-## Application that list all your expenses(React.js)
+## Application that list all your expenses (React.js)
 
 ### List your expenses and filter by year (the charts show proportionally the expenses of each month) <br>
 
