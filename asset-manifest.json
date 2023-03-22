@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/expense-organizer/static/css/main.fbc8bcd6.css",
+    "main.js": "/expense-organizer/static/js/main.ccbda370.js",
+    "index.html": "/expense-organizer/index.html",
+    "main.fbc8bcd6.css.map": "/expense-organizer/static/css/main.fbc8bcd6.css.map",
+    "main.ccbda370.js.map": "/expense-organizer/static/js/main.ccbda370.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fbc8bcd6.css",
+    "static/js/main.ccbda370.js"
+  ]
+}
