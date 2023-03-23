@@ -1,5 +1,5 @@
 # expense-organizer
-## Application that list all your expenses 
+## Application that list all your expense
 
 ### List your expenses and filter by year (the charts show proportionally the expenses of each month) <br>
 
