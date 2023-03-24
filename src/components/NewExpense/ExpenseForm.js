@@ -32,7 +32,7 @@ const ExpenseForm = (props) => {
       id: Math.random().toString(),
       title: text,
       amount: +amount,
-      date: new Date(date.replaceAll("-", ", ")),
+      date: new Date(date.replace(/-/g, '/')),
     };
     props.onSubmitExpense(formData);
 
